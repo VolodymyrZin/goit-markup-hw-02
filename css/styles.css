@@ -30,9 +30,7 @@ a {
 .header-span {
   color: #2e2f42;
 }
-.a-studio,
-.a-portfolio,
-.a-contacts {
+.nav-link {
   color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
@@ -40,35 +38,24 @@ a {
   font-weight: 500;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.a-studio:hover,
-.a-portfolio:hover,
-.a-contacts:hover {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
-.a-studio:active,
-.a-portfolio:active,
-.a-contacts:active {
-  color: #404bbf;
-}
-.a-studio:focus,
-.a-portfolio:focus,
-.a-contacts:focus {
-  color: #404bbf;
-}
-.address-list {
-  font-style: normal;
-}
-.address-list a {
+
+.contact-link {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 400;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.address-list a:hover {
+
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
+
 .section-1 {
   background-color: #2e2f42;
   text-align: center;
