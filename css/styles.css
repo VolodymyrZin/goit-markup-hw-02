@@ -42,7 +42,9 @@ a {
 .nav-link:focus {
   color: #404bbf;
 }
-
+.address-list {
+  font-style: normal;
+}
 .contact-link {
   color: #434455;
   font-size: 16px;
@@ -66,10 +68,12 @@ a {
   line-height: 1.07;
   letter-spacing: 0.02em;
   font-weight: 700;
+  text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .section-1-button {
   color: #ffffff;
+  font-family: 'Roboto', sans-serif;
   background-color: #4d5ae5;
   cursor: pointer;
   font-weight: 500;
@@ -78,12 +82,11 @@ a {
   letter-spacing: 0.04em;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.section-1-button:hover {
-  background-color: #404bbf;
-}
+.section-1-button:hover,
 .section-1-button:focus {
   background-color: #404bbf;
 }
+
 .section-2 {
   background-color: #ffffff;
 }
