@@ -1,6 +1,8 @@
 .container {
-  color: #2e2f42;
-  background-color: #e7e9fc;
+  /* color: #2e2f42; */
+  color: #434455;
+  /* background-color: #e7e9fc; */
+  background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -42,16 +44,21 @@ a {
 .s-p-contacts-a a:active {
   color: #404bbf;
 }
-.address a {
+.s-p-contacts a:focus {
+  color: #404bbf;
+}
+.address-list {
+  font-style: normal;
+}
+.address-list a {
   color: #434455;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 400;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.address a:hover {
+.address-list a:hover {
   color: #404bbf;
 }
 .section-1 {
@@ -79,7 +86,9 @@ a {
 .section-1-button:hover {
   background-color: #404bbf;
 }
-
+.section-1-button:focus {
+  background-color: #404bbf;
+}
 .section-2 {
   background-color: #ffffff;
 }
