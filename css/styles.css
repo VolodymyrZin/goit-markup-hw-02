@@ -30,7 +30,9 @@ a {
 .header-span {
   color: #2e2f42;
 }
-.s-p-contacts a {
+.a-studio,
+.a-portfolio,
+.a-contacts {
   color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
@@ -38,13 +40,19 @@ a {
   font-weight: 500;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.s-p-contacts a:hover {
+.a-studio:hover,
+.a-portfolio:hover,
+.a-contacts:hover {
   color: #404bbf;
 }
-.s-p-contacts-a a:active {
+.a-studio:active,
+.a-portfolio:active,
+.a-contacts:active {
   color: #404bbf;
 }
-.s-p-contacts a:focus {
+.a-studio:focus,
+.a-portfolio:focus,
+.a-contacts:focus {
   color: #404bbf;
 }
 .address-list {
